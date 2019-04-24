@@ -29,7 +29,7 @@
     [self.navView setupAlphaAtScrollView:scrollView withMargin:margin];
 }
 ```
-##这个两个属性的用法和系统的处理一样
+## 这个两个属性的用法和系统的处理一样
 ```
 @property (nonatomic,strong)UINavigationBar * navBar;
 @property (nonatomic,strong)UINavigationItem * navigationItem;
