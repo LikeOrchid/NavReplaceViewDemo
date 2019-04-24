@@ -44,3 +44,5 @@ self.navView.navigationItem.leftBarButtonItem = rightItem;
 ```
 self.navView.navigationItem.title =@"";
 ```
+## 效果图
+![image](https://github.com/LikeOrchid/NavReplaceViewDemo/blob/master/NavReplaceViewDemo/NavReplaceViewDemo/Untitled.gif)
