@@ -40,3 +40,7 @@ UIBarButtonItem * rightItem = [[UIBarButtonItem alloc]initWithCustomView:backBtn
 self.navView.navigationItem.leftBarButtonItem = rightItem;
 [backBtn addTarget:self action:@selector(backButtonTouch) forControlEvents:UIControlEventTouchUpInside];
 ```
+如:标题
+```
+self.navView.navigationItem.title =@"";
+```
