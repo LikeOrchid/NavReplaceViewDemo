@@ -29,6 +29,7 @@
     [self.navView setupAlphaAtScrollView:scrollView withMargin:margin];
 }
 ```
+##  ==== 其他 ====
 ## 这个两个属性的用法和系统的处理一样
 ```
 @property (nonatomic,strong)UINavigationBar * navBar;
