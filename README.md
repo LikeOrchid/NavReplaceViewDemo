@@ -1,5 +1,5 @@
 # NavReplaceViewDemo
-这一个侵入试的类似导航栏的视图，不影响上一级或者下一级控制器的系统的nav，本质就是一个隐藏系统的nav，自己自定义个navView。这个navView 要加载在ViewController 的最后，也就是最上面，替换系统的。
+这一个根据scrollView渐变的侵入试的类似导航栏的视图，不影响上一级或者下一级控制器的系统的nav，本质就是一个隐藏系统的nav，自己自定义个navView。这个navView 要加载在ViewController 的最后，也就是最上面，替换系统的。
 用法如下：
 
 ## 初始化
@@ -13,7 +13,7 @@
     return _navView;
 }
 ```
-## 跳转scrollView 会自己滚动一下让视图会改变一点alpha的情况
+## 初始化时scrollView 会自己滚动一下让视图会改变一点alpha的情况
 ```
 -(void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:animated];
